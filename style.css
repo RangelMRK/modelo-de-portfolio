@@ -194,15 +194,15 @@ body{
     .foto{
         display: flex;
         justify-content: center;
-        width: auto;
+        width: 100%;
         padding: 5%;
         object-fit: contain;
     }
 
     .foto__src{
-        height: auto;
-        width: auto;
-        padding: 10%;
+        height: 100%;
+        width: 100%;
+        padding: 0;
         object-fit: contain;
         
     }
@@ -211,4 +211,3 @@ body{
         width: 100vw;
     }
 }
-
